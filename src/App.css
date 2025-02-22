@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: rgb(10, 10, 10);
+}
+
+/* Container for Login, Register, and Home */
+.container {
+  background: white;
+  padding: 30px; /* Increased padding for a more spacious look */
+  width: 320px;
+  border-radius: 10px; /* Slightly rounded corners */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Deeper shadow for more depth */
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px; /* Increased top margin for better spacing */
+}
+
+/* Input Fields */
+input {
+  width: 90%;
+  padding: 12px; /* Increased padding for better touch targets */
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: border-color 0.3s; /* Smooth transition for border color */
+}
+
+input:focus {
+  border-color: #a200ff; /* Change border color on focus */
+  outline: none; /* Remove default outline */
+}
+
+/* Buttons */
+button {
+  width: 100%;
+  padding: 12px; /* Increased padding for better touch targets */
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: #a200ff; /* Primary button color */
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s; /* Smooth transitions */
+}
+
+button:hover {
+  background-color: #8e00d4; /* Darker shade on hover */
+  transform: translateY(-2px); /* Slight lift effect on hover */
+}
+
+button:active {
+  transform: translateY(0); /* Reset lift effect on click */
+}
+
+/* Additional Styles for Links */
+.nav-link {
+  color: #a200ff; /* Link color */
+  text-decoration: none; /* Remove underline */
+}
+
+.nav-link:hover {
+  text-decoration: underline; /* Underline on hover */
+}
